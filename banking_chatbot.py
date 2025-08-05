@@ -189,7 +189,7 @@ class BankingChatbotGUI:
         self.display_welcome_message()
         
     def setup_window(self):
-        self.root.title("MyBank Assistant - by Sunil Dutt, Ibrahim & Ishaku")
+        self.root.title("MyBank Assistant ")
         self.root.geometry("700x600")
         self.root.minsize(600, 600)
         self.root.configure(bg='#f5f7fa')
@@ -235,7 +235,7 @@ class BankingChatbotGUI:
         header = tk.Frame(self.chat_frame, bg='#0056b3', height=50)
         header.pack(fill='x')
         
-        tk.Label(header, text="MyBank Virtual Assistant", bg='#0056b3', 
+        tk.Label(header, text="MyBank Virtual Assistant - by Sunil Dutt, Ibrahim & Ishaku", bg='#0056b3', 
                 fg='white', font=('Roboto', 12, 'bold')).pack(side='left', padx=15)
         
         self.status = tk.Label(header, text="● Online", bg='#0056b3', 
